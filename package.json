@@ -1,0 +1,22 @@
+{
+  "name": "openclaw-csharpfix",
+  "version": "1.0.0",
+  "description": "OpenClaw plugin for diagnosing and fixing common C# compiler errors",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "peerDependencies": {
+    "openclaw": "*"
+  },
+  "devDependencies": {
+    "@sinclair/typebox": "^0.34.0",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.0"
+  },
+  "keywords": ["openclaw", "plugin", "csharp", "dotnet", "compiler", "errors"],
+  "license": "MIT"
+}
