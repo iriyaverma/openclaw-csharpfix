@@ -1,7 +1,10 @@
 {
   "id": "csharpfix",
   "name": "CSharpFix",
-  "version": "1.0.0",
   "description": "Diagnose and fix common C# compiler errors with explanations, examples, and suggested fixes",
-  "entry": "dist/index.js"
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
 }
